@@ -3,9 +3,14 @@ server:
   tomcat:
     uri-encoding: utf-8
 spring:
+  auto:
+    openurl: true
+  web:
+    loginurl: http:\\localhost:8080
+    googleexcute: C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe
   datasource:
     druid:
-      # 数据库访问配置, 使用druid数据源 
+      # 数据库访问配置, 使用druid数据源
       db-type: com.alibaba.druid.pool.DruidDataSource
       driverClassName: com.mysql.jdbc.Driver
       url: jdbc:mysql://127.0.0.1:3306/bbsqdpt?useUnicode=true&characterEncoding=utf8&useSSL=false
@@ -61,7 +66,6 @@ spring:
       filter:
         stat:
           log-slow-sql: true
-
   redis:
     # Redis数据库索引（默认为0）
     database: 0
@@ -187,5 +191,3 @@ febs:
     height: 33
     # 验证码字符个数，默认4个字符
     length: 4
-
-
