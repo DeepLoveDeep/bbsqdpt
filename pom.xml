@@ -258,7 +258,7 @@
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
                 <version>1.3.2</version>
                 <configuration>
-                    <configurationFile>D:\project\systembbs/src/main/resources/config/generatorConfig.xml</configurationFile>
+                    <configurationFile>D:\bbs_manage\bbsqdpt\src\main\resources\config\generatorConfig.xml</configurationFile>
                     <overwrite>true</overwrite>
                     <verbose>true</verbose>
                 </configuration>
