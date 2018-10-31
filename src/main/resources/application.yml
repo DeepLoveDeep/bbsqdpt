@@ -163,7 +163,7 @@ logging:
 # febs 配置
 febs:
   shiro:
-    # shiro redis缓存时长，默认1800秒
+    # shiro redis缓存时长，  默认1800秒
     expireIn: 1800
     # session 超时时间，默认1800000毫秒
     sessionTimeout: 1800000
